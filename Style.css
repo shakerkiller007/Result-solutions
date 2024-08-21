@@ -1,0 +1,360 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media screen and (max-width: 440px) {
+    .container {
+        display:block;
+    }
+
+      .result{
+        background-image:linear-gradient(#4936f2, #4a26d0);
+        text-align: center;
+        width: fit-content;
+        border-radius: 1rem;
+        padding: 20px 30px;
+     }
+      .result h4{
+          color: white;
+      }
+
+      #outof {
+        background-image: linear-gradient(#4936f2, #4a26d0);
+        padding: 12px 42px;
+        color: white;
+        margin: 40px auto;
+        display: block;
+        width:fit-content;
+        border-radius: 50%;
+        line-height: 10px;
+      }
+
+      #outof :hover {
+        scale: 1.1;
+        padding: 18px 48px;
+        transition: all 0.2s ease-in-out;
+        -moz-box-shadow: 0px 20px 20px #00000016;
+        -webkit-box-shadow: 0px 20px 20px #00000016;
+        box-shadow: 0px 20px 20px #00000016;
+        cursor: pointer;
+      }
+      
+      #outof h1{
+        text-align: center;
+        font-size: 82px;
+      }
+
+      #outof h5 {
+        color: #8578ff;
+      }
+      
+      .result h2{
+        
+        color: white;
+        letter-spacing: 3px;
+      }
+      .result p{
+        font-size: 18px;
+        padding: 10px 20px;
+        color: #bab4ff;
+      }
+
+      .summary{
+        text-align: center;
+        padding: 10px 20px;
+        width:fit-content;
+      }
+
+      .summary div {
+         justify-content: center;
+        align-items: center;
+        display:flex;
+        width: 110%;
+        margin: 20px auto;
+        border-radius: .5rem;
+      }
+
+      .summary button {
+        margin: 20px auto;
+        display:block;
+        width: 110%;
+        background-color: #303b59;
+        border: none;
+        color: white;
+        padding: 14px 18px;
+        border-radius: 2rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+      }
+      .summary button:hover {
+        background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+        cursor: pointer;
+        scale: 1.05;
+        -moz-box-shadow: 0px 10px 10px #00000023;
+        -webkit-box-shadow: 0px 10px 10px #00000023;
+        box-shadow: 0px 10px 10px #00000023;
+        transition: all 0.2s ease-out;
+      }
+      .reaction{
+        background-color: #fff6f5;
+      }
+
+      .reaction:hover{
+        background-color: hsl(0 , 50%, 92%);
+
+      }
+      .reaction h4 {
+        color: hsl(0, 100%, 67%);
+    }
+
+    .memory {
+        background-color: #fffbf2;
+    }
+
+    .memory:hover {
+        background-color: hsl(49, 60%, 96%);
+        cursor: pointer;
+        scale: 1.05;
+        -moz-box-shadow: 0px 10px 10px #00000023;
+        -webkit-box-shadow: 0px 10px 10px #00000023;
+        box-shadow: 0px 10px 10px #00000023;
+        transition: all 0.2s ease-out;
+    }
+
+    .memory h4 {
+        color: hsl(39, 100%, 56%);
+    }
+
+    .verbal {
+        background-color: #f2fbfa;
+    }
+
+    .verbal:hover {
+        background-color: hsl(166, 50%, 77%);
+        cursor: pointer;
+        scale: 1.05;
+        -moz-box-shadow: 0px 10px 10px #00000023;
+        -webkit-box-shadow: 0px 10px 10px #00000023;
+        box-shadow: 0px 10px 10px #00000023;
+        transition: all 0.2s ease-out;
+    }
+
+    .verbal h4 {
+        color: hsl(166, 100%, 37%);
+    }
+
+    .visual {
+        background-color: #f3f3fd;
+    }
+
+    .visual:hover {
+        background-color: hsl(234, 75%, 70%);
+        cursor: pointer;
+        scale: 1.05;
+        -moz-box-shadow: 0px 10px 10px #00000023;
+        -webkit-box-shadow: 0px 10px 10px #00000023;
+        box-shadow: 0px 10px 10px #00000023;
+        transition: all 0.2s ease-out;
+    }
+
+    .visual h4 {
+        color: hsl(234, 85%, 45%);
+    }
+
+    #score {
+        margin-left: 120px;
+        font-weight: 500;
+        color: #9a959c;
+    }
+
+    #score b {
+        color: black;
+        font-size: 16px;
+    }
+
+    .summary img {
+        margin-right: 20px;
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width:440px) {
+   
+.container{
+        display: flex;
+        margin: 100px auto;
+        background-color: white;
+        -moz-box-shadow: 0px 20px 20px #00000023;
+        -webkit-box-shadow: 0px 20px 20px #00000023;
+        box-shadow: 0px 20px 20px #00000023;
+         border-radius: 1rem;
+         width: 700px;
+
+}
+
+.result {
+    background-image: linear-gradient(#4936f2 , #4a26d0);
+    text-align: center;
+    width: 300px;
+    border-radius: 1rem;
+     padding: 20px 30px;
+}
+
+.result h4 {
+        color: #c6c6fa;
+}
+
+#outof {
+        background-image: linear-gradient(#4936f2 , #4a26d0);
+        padding: 12px 42px;
+        color: white;
+        margin : 40px auto;
+        display: block;
+        width: fit-content;
+        border-radius: 50%;
+        line-height: 10px;
+}
+
+#outof:hover{
+        scale: 1.1;
+        padding: 18px 48px;
+        transition: all 0.2s ease-in-out;
+        -moz-box-shadow: 0px 20px 20px #00000016;
+        -webkit-box-shadow: 0px 20px 20px #00000016;
+        box-shadow: 0px 20px 20px #00000016;
+        cursor: pointer;
+}
+
+ #outof h1{
+        text-align: center;
+        font-size: 82px;
+}
+#outof h5{
+        color:#8578ff;
+}
+
+.result h2{
+        color: white;
+        letter-spacing: 3px;
+}
+
+.result p{
+        font-size: 18px;
+        padding: 10px 20px;
+        color:#bab4ff
+}
+.summary{
+        padding: 20px 30px;
+}
+
+.summary div{
+     justify-content: center;
+     align-items: center;
+     display:flex;
+     width: 300px;
+     margin: 20px auto;
+     border-radius: .5rem;
+}
+.summary button{
+    margin: 20px auto;
+    display:block;
+    width: 300px;
+    background-color: #303b59;
+    border: none;
+    color: white;
+    padding: 14px 18px;
+    border-radius: 2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.summary button:hover{
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    cursor: pointer;
+    scale: 1.05;
+    -moz-box-shadow: 0px 10px 10px #00000023;
+    -webkit-box-shadow: 0px 10px 10px #00000023;
+    box-shadow: 0px 10px 10px #00000023;
+    transition: all 0.2s ease-out;
+}
+.reaction{
+    background-color: #fff6f5;
+}
+.reaction:hover {
+    background-color:  hsl(0, 50%, 92%);
+    cursor: pointer;
+    scale: 1.05;
+    -moz-box-shadow: 0px 10px 10px #00000023;
+    -webkit-box-shadow: 0px 10px 10px #00000023;
+    box-shadow: 0px 10px 10px #00000023;
+    transition: all 0.2s ease-out;
+}
+.reaction h4{
+    color: hsl(0, 100%, 67%);
+}
+.memory{
+    background-color: #fffbf2;
+}
+.memory:hover{
+    background-color: hsl(49, 60%, 96%);
+    cursor: pointer;
+    scale: 1.05;
+    -moz-box-shadow: 0px 10px 10px #00000023;
+    -webkit-box-shadow: 0px 10px 10px #00000023;
+    box-shadow: 0px 10px 10px #00000023;
+    transition: all 0.2s ease-out;
+}
+.memory h4{
+    color:  hsl(39, 100%, 56%);
+}
+.verbal{
+    background-color: #f2fbfa; 
+}
+.verbal:hover{
+    background-color: hsl(166, 50%, 77%);
+    cursor: pointer;
+    scale: 1.05;
+    -moz-box-shadow: 0px 10px 10px #00000023;
+    -webkit-box-shadow: 0px 10px 10px #00000023;
+    box-shadow: 0px 10px 10px #00000023;
+    transition: all 0.2s ease-out;
+}
+.verbal h4 {
+    color:hsl(166, 100%, 37%);
+}
+.visual {
+    background-color: #f3f3fd;
+}
+.visual:hover{
+    background-color: hsl(234, 75%, 70%);
+    cursor: pointer;
+    scale: 1.05;
+    -moz-box-shadow: 0px 10px 10px #00000023;
+    -webkit-box-shadow: 0px 10px 10px #00000023;
+    box-shadow: 0px 10px 10px #00000023;
+    transition: all 0.2s ease-out;
+}
+.visual h4{
+    color: hsl(234, 85%, 45%);
+}
+#score{
+    margin-left: 120px;
+    font-weight: 500;
+    color: #9a959c;
+}
+#score b{
+    color: black;
+    font-size: 16px;
+}
+.summary img{
+    margin-right: 20px;
+}
+}
